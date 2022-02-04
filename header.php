@@ -6,7 +6,7 @@
   ob_start();
   $title = isset($_GET['page']) ? ucwords(str_replace("_", ' ', $_GET['page'])) : "Home";
   ?>
-  <title><?php echo $title ?> | Kallara</title>
+  <title><?php echo $title ?> | Kallara News Network</title>
   <?php ob_end_flush() ?>
 
   <!-- Google Font: Source Sans Pro -->
